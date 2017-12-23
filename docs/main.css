@@ -1,6 +1,48 @@
 
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  font-family: Arial;
+  background-color: #94fcec;
+}
 
 div#body-container {
 
-  background-color: lightblue;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+h1 {
+  margin: 0px;
+  padding: 5px;
+  text-align: center;
+  font-size: 80px;
+  color: #00b702;
+
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+div.snowflake {
+  z-index: -1;
+}
+
+div#snowflake1, div#snowflake2, div#snowflake3, div#snowflake4, div#snowflake5, div#snowflake6,
+div#snowflake7, div#snowflake8, div#snowflake9, div#snowflake10, div#snowflake11, div#snowflake12,
+div#snowflake13, div#snowflake14, div#snowflake15, div#snowflake16, div#snowflake17, div#snowflake18,
+div#snowflake19, div#snowflake20 {
+
+  position: absolute;
+  top: -80px;
+  float: left;
 }
